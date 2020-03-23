@@ -1,0 +1,70 @@
+/*{
+    background-color: rgba(0,0,0,2);
+    vert
+    #42bd49
+    jaune
+    #cbdc23
+    rose
+    #e21d49
+}*/
+
+.main-theme, article{
+    background-color: rgb(96, 106, 136);
+}
+
+.light-theme{
+    background-color: rgb(149, 186, 201);
+}
+.dark-theme,h1, h2, h3, h4{
+    background-color: rgb(104, 114, 124);
+    color: linen;
+}
+.color-theme{
+    background-color: rgb(110, 98, 184);
+}
+/*Style des titres*/
+    h1, h2, h3, h4{
+    /*arrondi du bloc*/
+    border-radius: 10px ;
+    text-align: center;
+    margin: 0% 5%;
+    padding: 10px;
+}
+
+article{
+    margin-bottom: 10vh;
+    padding: 2% ;/*marge interieur des blocs*/
+    background-color: rgba(72, 79, 100, 0.8) ;
+    -webkit-box-shadow: 35px 31px 35px 22px rgba (0,0,0,0,62);
+    -moz-box-shadow: 35px 31px 35px 22px rgba (0,0,0,0,62);
+    box-shadow: 35px 31px 35px 22px rgba (0,0,0,0,62);
+}
+
+aside, ul, li{
+    list-style-type: square;
+}
+
+body{
+    text-align: center;
+    background-image: url("../images/Volute.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    margin : 5%;/*exterrieur du bloc*/
+}
+
+aside{
+    float: left;
+    width: 20vw;    
+}
+
+section{
+    float: right;
+    width: 60vw;
+}
+
+
