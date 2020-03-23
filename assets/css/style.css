@@ -13,11 +13,11 @@
 }
 
 .light-theme{
-    background-color: rgb(149, 186, 201);
+    background-color: rgb(108, 132, 141);
 }
 .dark-theme,h1, h2, h3, h4{
     background-color: rgb(104, 114, 124);
-    color: linen;
+    color: rgb(104, 80, 59);
 }
 .color-theme{
     background-color: rgb(110, 98, 184);
@@ -25,14 +25,13 @@
 /*Style des titres*/
     h1, h2, h3, h4{
     /*arrondi du bloc*/
+    margin: 0% 5%;
     border-radius: 10px ;
     text-align: center;
-    margin: 0% 5%;
     padding: 10px;
 }
 
 article{
-    margin-bottom: 10vh;
     padding: 2% ;/*marge interieur des blocs*/
     background-color: rgba(72, 79, 100, 0.8) ;
     -webkit-box-shadow: 35px 31px 35px 22px rgba (0,0,0,0,62);
@@ -45,6 +44,7 @@ aside, ul, li{
 }
 
 body{
+    margin: auto;
     text-align: center;
     background-image: url("../images/Volute.jpg");
     background-attachment: fixed;
@@ -53,18 +53,115 @@ body{
     background-size: cover;
 }
 
-main{
-    margin : 5%;/*exterrieur du bloc*/
-}
 
 aside{
+    /*z-index: -1; /*Permet de gérer l'arrière plan ou la mise e avant*/
     float: left;
-    width: 20vw;    
+    position: fixed;
+    border-radius: 10px ;
 }
 
 section{
     float: right;
-    width: 60vw;
+}
+footer{
+    clear: both;
+    padding: 15px;
+    text-align: center;
+}
+
+a{
+    color: #626a9c
+}
+
+a:visited{
+    color: rgb(25, 32, 83)
+}
+/*Padding generique*/
+.p1{
+    padding: 1em;
+}
+.p2{
+    padding: 2em;
+}
+.p3{
+    padding: 3em;
+}
+.p4{
+    padding: 4em;
+}
+/*Margin generique*/
+.m2{
+    margin: 10vh 10vw;
+}
+
+.m4{
+    margin: 20vh 20vw;
+}
+/*Margin Top*/
+.mt2{
+    margin-top: 10vh;
+}
+.mt4{
+    margin-top: 20vh;
+}
+/*Margin bottom*/
+.mb2{
+    margin-bottom: 10vh;
+}
+.mb4{
+    margin-bottom: 20vh;
+}
+/*margin vertical*/
+.mv-auto{
+    margin: auto 0;
+}
+/*margin horizonal*/
+.mh-auto{
+    margin: 0 auto;
+}
+/*margin-right*/
+.mr2{
+    margin-right: 10vw;
+}
+.mr4{
+    margin-right: 20vw;
+}
+/*largeur des éléments*/
+.w10{
+    width: 10%;
+    min-width: 10%;
+}
+.w20{
+    width: 20%;
+    min-width: 20%;
+}
+.w40{
+    width: 40%;
+    min-width: 40%;
+}
+.w60{
+    width: 60%;
+    min-width: 60%;
+}
+.w80{
+    width: 80%;
+    min-width: 80%;
+}
+.w100{
+    width: 100%;
+    min-width: 100%;
+}
+.flex{
+    align-self: center;
+    /*active le display*/
+    display: flex;
+    /*flex-direction d'affichage*/
+    /*flex-direction: row;*/
+    /*alignement*/
+    /*align-content: space-around;*/
+    flex-basis: content;
+    flex-wrap: wrap;
 }
 
 
